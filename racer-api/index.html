@@ -10,23 +10,25 @@
     <title>F1 Driver Data</title>
 </head>
 <body>
-    <h1 id="test" class='red-color'>Formula 1 Driver Data by Year</h1>
+    <div class="container">
+        <h1 id="test" class='red-color'>Formula 1 Driver Data by Year</h1>
 
-    <h3>View stats for the top 7 drivers of any round since 1950.</h3>
+        <h3>View stats for the top 7 drivers of any round since 1950.</h3>
 
-    <!--using Dom to handle user input-->
-    <form name="testData" id="testDataForm">
-        <label for="season">Season</label>
-        <input type="text" name="season" id="season" placeholder="1950">
-        <label for="round">Round</label>
-        <input type="text" name="round" id="round" placeholder="1">
-        <button type="submit" id='submitButton'>Submit</button>
-    </form>
+        <!--using Dom to handle user input-->
+        <form name="testData" id="testDataForm">
+            <label for="season">Season</label>
+            <input type="text" name="season" id="season" placeholder="1950">
+            <label for="round">Round</label>
+            <input type="text" name="round" id="round" placeholder="1">
+            <button type="submit" id='submitButton'>Submit</button>
+        </form>
 
-    <!--Table with data from api-->
-    <table class="list-group racer-list">
+        <!--Table with data from api-->
+        <table class="list-group racer-list">
 
-    </table>
+        </table>
+    </div>
 
 </body>
 </html>

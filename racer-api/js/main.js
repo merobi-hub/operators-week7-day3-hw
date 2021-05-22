@@ -129,10 +129,16 @@ const create_list = (racer1,racer2,racer3,racer4,racer5,racer6,racer7) => {
     var cell3 = row0.insertCell(3);
     var cell4 = row0.insertCell(4);
     cell0.innerHTML = "Position";
+    cell0.style.fontWeight = "bold";
     cell1.innerHTML = "Driver";
+    cell1.style.fontWeight = "bold";
     cell2.innerHTML = "Nationality";
+    cell2.style.fontWeight = "bold";
     cell3.innerHTML = "Constructor";
+    cell3.style.fontWeight = "bold";
     cell4.innerHTML = "Points";
+    cell4.style.fontWeight = "bold";
+    
 }
 
 // create arrays of data from API

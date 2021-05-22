@@ -1,23 +1,44 @@
 .racer-list {
     background-color: black;
     color: white;
-    width: 50%;
+    width: 100%;
+}
+
+td {
+    /* border: 1px solid white; */
+    padding: 0.5rem;
+}
+
+.racer-list row0 {
+    background-color: white;
 }
 
 body {
-    background-color: black;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url(../static/images/GettyImages-926159620.jpg);
     color: white;
+}
+
+.container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
     margin-left: 25%;
+    margin-top: 10vh;
+    width: 45%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 0.1%;
 }
 
 #testDataForm {
-    margin-bottom: 3vh;
+    margin-bottom: 2vh;
     background-color: black;
-    width: 50%;
+    /* width: 50%; */
 }
 
 h1 {
     background-color: black;
-    width: 50%;
-    margin-top: 10vh;
+    /* width: 50%; */
 }
