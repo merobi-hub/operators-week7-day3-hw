@@ -8,7 +8,7 @@ console.log(form)
 
 // add event listener for form data
 form.addEventListener('submit', (event) => {
-    
+
     event.preventDefault();
     let query_season = document.querySelector('#season').value
     let query_round = document.querySelector('#round').value
@@ -131,7 +131,7 @@ const create_list = (racer1,racer2,racer3,racer4,racer5,racer6,racer7) => {
     cell0.innerHTML = "Position";
     cell1.innerHTML = "Driver";
     cell2.innerHTML = "Nationality";
-    cell3.innerHTML = "Sponsor";
+    cell3.innerHTML = "Constructor";
     cell4.innerHTML = "Points";
 }
 
