@@ -1,0 +1,23 @@
+.racer-list {
+    background-color: black;
+    color: white;
+    width: 50%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin-left: 25%;
+}
+
+#testDataForm {
+    margin-bottom: 3vh;
+    background-color: black;
+    width: 50%;
+}
+
+h1 {
+    background-color: black;
+    width: 50%;
+    margin-top: 10vh;
+}

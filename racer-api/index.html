@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>F1 Driver Data</title>
+</head>
+<body>
+    <h1 id="test" class='red-color'>Formula 1 Driver Data by Year</h1>
+
+    <h3>View stats for the top 7 drivers of any round since 1950.</h3>
+
+    <!--using Dom to handle user input-->
+    <form name="testData" id="testDataForm">
+        <label for="season">Season</label>
+        <input type="text" name="season" id="season" placeholder="1950">
+        <label for="round">Round</label>
+        <input type="text" name="round" id="round" placeholder="1">
+        <button type="submit" id='submitButton'>Submit</button>
+    </form>
+
+    <!--Table with data from api-->
+    <table class="list-group racer-list">
+
+    </table>
+
+</body>
+</html>
